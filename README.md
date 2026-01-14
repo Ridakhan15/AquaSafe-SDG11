@@ -100,6 +100,6 @@ python model_training.py
 python prediction_app.py
 
 4.  Run the prediction and alert app
-  ```bash
 python prediction_app.py
+
 
