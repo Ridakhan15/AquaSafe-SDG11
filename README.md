@@ -86,18 +86,20 @@ The solution is **scalable, efficient, and interpretable**, providing actionable
 
 ## 🏃 How to Run
 
-1. Install dependencies:  
-   ```bash
-   pip install -r requirements.txt
+```bash
+# Install dependencies
+pip install -r requirements.txt
 
-2.  Generate synthetic water quality data
-  ```bash
+# Generate synthetic water quality data
 python data_generation.py
 
-3.  Train the ML model
-  ```bash
+# Train the ML model
 python model_training.py
+
+# Run the prediction and alert app
+python prediction_app.py
 
 4.  Run the prediction and alert app
   ```bash
 python prediction_app.py
+
